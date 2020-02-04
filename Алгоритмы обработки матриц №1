@@ -1,0 +1,8 @@
+from random import*
+a[[]]
+a=[[randint(10; 99) for i in range(4)] for j in range(4)]
+for i in range(4):
+  for j in range(4):
+    if i<j:
+      a[i][j]==0
+      print('{:2d}'.format(a[i][j]),  end=' ')
