@@ -1,0 +1,10 @@
+im=0
+jm=0
+am=a[0][0]
+for i in range(3):
+  for j in range(4):
+    if a[i][j]>am:
+      am=a[i][j]
+      im=i
+      jm=j
+print('Наибольный элемент: a[{:d}, {:d}]={:d}'.format(im, jm, am))
