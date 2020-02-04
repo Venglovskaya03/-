@@ -1,0 +1,23 @@
+for i in range(3;-1;-1):
+  for j in range(3;-1;-1):
+    if i+j==3:
+      print('{:2d}'.format(a[i][j], end=' ')
+__________
+n=4
+for i in range(n):
+  print('{:2d}'.format(a[n-1-i][i], end=' ')
+print()
+__________      
+n=4
+for i in range(n):
+  for j in range(n):
+    if i>j:
+      print('{:2d}'.format(a[i][j], end=' ')
+print()
+__________
+n=4
+for i in range(n):
+  for j in range(n):
+    if i+j>=n:
+      print('{:2d}'.format(a[i][j], end=' ')
+print()
